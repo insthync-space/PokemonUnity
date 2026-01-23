@@ -1,14 +1,10 @@
 <p align="center">
   <img alt="Pokémon Unity Logo" src="https://styles.redditmedia.com/t5_39moy/styles/bannerPositionedImage_6is405sk53j01.png" />
-  <h1 align="center">Pokémon Unity by IIcolour Spectrum</h1>
+  <h1 align="center">Pokémon Unity</h1>
   <h2 align="center">Created with Pokémon Framework</h2>
-  <h3 align="center">Based on Pokémon Essentials</h3>
   <p align="center">
     <a href="https://opensource.org/licenses/BSD-3-Clause"><img alt="License" src="https://img.shields.io/badge/license-New%20BSD-blue.svg"/></a>
     <a href="https://discord.gg/CCF2YVP"><img alt="Discord Server" src="https://img.shields.io/badge/join%20us%20on-discord-7289DA.svg"/></a>
-    <a href="https://www.reddit.com/r/PokemonUnity/"><img alt="Reddit" src="https://img.shields.io/badge/join%20us%20on-reddit-ff5700.svg"/></a>
-    <a href="https://herbertmilhomme.github.io/PokemonUnity/"><img alt="GitBook" src="https://img.shields.io/badge/view%20docs%20on-gitbook-blue.svg"/></a>
-    <a href="https://herbertmilhomme.visualstudio.com/PokemonUnity/_build/index?definitionId=3"><img src="https://herbertmilhomme.visualstudio.com/_apis/public/build/definitions/90a2f24a-6d43-47cd-9e21-be259c022c96/3/badge"/></a>
   </p>
 </p>
 
@@ -46,16 +42,14 @@ For example, you can export this project as a **DLL** and plug it into:
 - An ASP.NET website to build a web-based Pokémon battle simulator.
 - A command-line console for a text-based Pokémon game.
 
-The project includes a C# adaptation of [Pokémon Essentials](https://github.com/griest024/essentials-sample-project), ensuring that the game mechanics behave similarly to that package, but with the flexibility of being in C#. It also integrates data from [Veekun's Database](https://github.com/veekun/pokedex), giving you access to up-to-date Pokémon data that powers the framework’s game logic.
+The project integrates data from [Veekun's Database](https://github.com/veekun/pokedex), giving you access to up-to-date Pokémon data that powers the framework’s game logic.
 
 ### Key Takeaway:
 **Pokémon Unity** is designed to be an adaptable foundation for developers who are comfortable coding in C#. It provides the core mechanics for Pokémon-style games but can be used in **any** C# compatible environment. Whether you want to build a game in Unity or another engine, or even just experiment with Pokémon mechanics in a different application, this project gives you the tools to start coding without having to reinvent the wheel.
 
 ## Current Project Status
 
-The project builds upon IIcolour Spectrum's original Pokémon Unity, combining it with HerbertMilhomme's framework. While the project is currently playable, it's in an evolutionary phase with some features temporarily disabled and minor issues present. 
-
-For now, we advise against using this project as a foundation for building a game. However, we're making strides towards future improvements and eliminating the need for wrapper functions.
+The project is currently playable, it's in an evolutionary phase with some features temporarily disabled and minor issues present. 
 
 ## Demo and Build Instructions 
 
@@ -70,27 +64,18 @@ For now, we advise against using this project as a foundation for building a gam
   - In the Build folder, copy `SQLite.Interop.dll` from `YourAppName/YourAppName_Data/Plugins` to `YourAppName/YourAppName_Data/Managed`.
   - Finally, run `YourAppName.exe
 
-**To download the project and play it without using unity** 
-
-There are also demos for Windows, Linux, and Mac zipped in [2016 Release](https://github.com/PokemonUnity/PokemonUnity/releases) (This is the version used in the YouTube video, if you're just looking to play it.)
-
-Stay tuned for updates and exciting changes as we continue to develop the Pokémon Unity Project!
-
 ## Credits
 
-* PKUnity Project Lead: [FlakFlayster](https://github.com/herbertmilhomme/)
-* PKUnity Base author: [IIcolour Spectrum](https://www.reddit.com/user/IIcolour_Spectrum)/[superusercode](https://www.reddit.com/user/Lucas_One/)
 * PKUnity Maintainer: [MyzTyn](https://github.com/MyzTyn/) and [Gen](https://github.com/gen3vra/)
 * PKUnity Logo artist: [Kaihatsu](https://twitter.com/KaihatsuYT)
+* Original Base: [IIcolour Spectrum](https://www.reddit.com/user/IIcolour_Spectrum)/[superusercode](https://www.reddit.com/user/Lucas_One/)
 
-## Links
+## More Info
 
-* Reddit: https://www.reddit.com/r/PokemonUnity/
-* Discord server: https://discord.gg/AzW8Ds7MdE
+* [Discord Server](https://discord.gg/CCF2YVP)
 * Project Board: [Not Frequently Used or Updated](https://github.com/herbertmilhomme/PokemonUnity/projects/1)
-* Documentation: [Pokémon Essentials Wiki](https://pokemon-essentials.fandom.com/wiki/Pokemon_Essentials_Wiki) (or [My poorly written Github Wiki 1](https://herbertmilhomme.github.io/PokemonUnity/) and [My poorly written Github Wiki 2](https://github.com/herbertmilhomme/PokemonUnity/tree/gh-pages))
-* Documentation-Repository: [Pokémon Framework Library Wiki](https://github.com/PokemonUnity/pklibrary/tree/dev_feature_web-docs) (Web Resources TBD)
+* Documentation: [Pokémon Essentials Wiki](https://pokemon-essentials.fandom.com/wiki/Pokemon_Essentials_Wiki) (or [Not Updated Often](https://herbertmilhomme.github.io/PokemonUnity/) and [Not Update Often 2](https://github.com/herbertmilhomme/PokemonUnity/tree/gh-pages))
+* Documentation Repository: [Pokémon Framework Library Wiki](https://github.com/PokemonUnity/pklibrary/tree/dev_feature_web-docs) (Web Resources TBD)
 * Database: [Veekun's Pokédex Github](https://github.com/veekun/pokedex)
 * Unity Framework: [GameFramework UnityEngine C# Assets](https://github.com/EllanJiang/UnityGameFramework)
 * Unity Framework: [GameFramework Vanilla C# Library](https://github.com/EllanJiang/GameFramework)
-* Web-Server: TBD 
